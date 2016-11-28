@@ -2,12 +2,18 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AudioClockComponent } from './components/audio-clock/audio-clock.component';
+import { FormsModule } from '@angular/forms';
+import { MaterialModule } from '@angular/material';
+import 'hammerjs';
 
-describe('AppComponent', () => {
+xdescribe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports: [ FormsModule, MaterialModule ],
       declarations: [
-        AppComponent
+        AppComponent,
+        AudioClockComponent
       ],
     });
   });

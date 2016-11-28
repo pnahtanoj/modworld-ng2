@@ -1,0 +1,25 @@
+.trackContainer {
+    /*@apply(--layout-horizontal);*/
+    /*@apply(--layout-center);*/
+    background-color: #FFFFFF;
+    padding: 0.4em;
+    margin: 1em;
+}
+.trackContainer__title {
+    font-size: 1.4em;
+    /*@apply(--layout-flex-2);*/
+}
+.trackContainer__steps {
+    /*@apply(--layout-flex-10);*/
+    /*@apply(--layout-horizontal);*/
+    /*@apply(--layout-center);*/
+}
+.trackContainer__controls {
+    /*@apply(--layout-flex-2);*/
+    /*@apply(--layout-horizontal);*/
+    /*@apply(--layout-center);*/
+}
+.bypassed {
+    opacity: 0.4;
+    /*background-color: red !important;*/
+}

@@ -1,0 +1,19 @@
+{{this.sequence.active}}
+<div class="trackContainer {{_bypassClass}}">
+    <div class='trackContainer__title'>{{title}}</div>
+    <div class='trackContainer__steps'>
+        <app-sequencer-step *ngFor='let step of sequence.steps; let i = index'
+                            [(step)]="sequence.steps[i]"></app-sequencer-step>
+    </div>
+
+    <div class='trackContainer__controls'>
+        CONTROLZ
+        <!--<volume-knob id='volume' volume='{{volume}}'></volume-knob>-->
+        <!--<mute-button mute={{mute}}></mute-button>-->
+        <!--<solo-button solo={{solo}}></solo-button>-->
+        <!--<paper-icon-button id='preview' icon="refresh" on-tap='reset'></paper-icon-button>-->
+        <!--<paper-icon-button id='preview' icon="arrow-forward" on-tap='preview'></paper-icon-button>-->
+        <!--<paper-icon-button id='preview' icon="check-box-outline-blank" on-tap='preview'></paper-icon-button>-->
+    </div>
+
+</div>

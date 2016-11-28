@@ -1,0 +1,7 @@
+<h1>Master Clock Info</h1>
+<div style="background-color: green; display:flex; flex-direction:row;">
+    <div>Tempo: <input [(ngModel)]="Clock.tempo" /></div>
+    <md-slider style="display: inline-block" min="10" max="255" [(ngModel)]="Clock.tempo"></md-slider>
+
+    <button md-button (click)="toggle()">DISPLAY</button>
+</div>

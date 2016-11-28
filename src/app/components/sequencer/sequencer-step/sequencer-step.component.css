@@ -1,0 +1,27 @@
+.step {
+    padding: 1em;
+    margin: 0.5em;
+    border: 2px solid #CCCCCC;
+}
+.step:focus {
+    outline: 0;
+}
+.active {
+    border: 2px solid red;
+    opacity: 0.5;
+}
+.inactive {
+    /*border: 2px solid grey;        */
+}
+.off {
+    background-color: #E6E6E6;
+}
+.soft {
+    background-color: #FFFF00;
+}
+.medium {
+    background-color: #FFCC66;
+}
+.hard {
+    background-color: #FF6666;
+}
