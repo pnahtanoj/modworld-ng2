@@ -10,8 +10,7 @@ export class AudioClockComponent implements OnInit {
 
     constructor(private Clock: ClockService) {}
 
-    ngOnInit() {
-    }
+    ngOnInit() {}
 
     toggle() {
         if (this.Clock.active)
